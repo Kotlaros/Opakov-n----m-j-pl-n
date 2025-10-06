@@ -1,16 +1,120 @@
-/* styly.css */
-
-.container {
+body {
+    background-color: #111;  
+    color: #eee;             
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+body {
+    background-color: #111;
+    color: #eee;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 20px;
+}
+.cards {
     display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 180px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.card h2 {
+    margin: 10px 0 0 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; 
+    color: #e0e0e0; 
+    margin: 0;
+    padding: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+.cards {
+    display: flex;
+    gap: 20px
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
 }
 
 .card {
-    width: 30%; /* Adjust the width as needed */
-    margin: 10px; /* Space between cards */
-    border: 1px solid #ccc; /* Card border */
-    border-radius: 5px; /* Rounded corners */
-    padding: 15px; /* Inner padding */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    background-color: #92c6db;
+    color: #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+    width: 160px;
+    text-align: center;
+    padding: 0 15px 15px 15px;
+    transition: transform 0.2s;
+    overflow: hidden;
 }
+
+.card img {
+    width: 110%;
+    height: 180px;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+}
+
+.card h2 {
+    margin: 10px 0 0 0;
+    font-size: 1.2rem;
+    color: #e0e0e0;
+}
+body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+    }
+
+    body {
+      background-color: #121212;
+      color: #f0f0f0;            
+      font-family: Arial, sans-serif;
+      padding: 40px;
+    }
+    h1 {
+      color: #ffffff;
+    }
+    p {
+      font-size: 1.2em;
+    }
+    
